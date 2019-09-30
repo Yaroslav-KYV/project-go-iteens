@@ -1,0 +1,102 @@
+
+.section__title {
+  position: relative;
+  margin-bottom: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 78px;
+  text-transform: uppercase;
+  padding-left: 60px;
+}
+
+.section__title::before {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 22px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  content: '';
+  border-radius: 50%;
+}
+
+.section__title--first::before {
+  background: url(../images/gps-fixed.svg) no-repeat center;
+  background-size: 18px;
+  background-color: #fcae26;
+}
+
+.how-teach__block {
+  display:flex;
+
+}
+
+.how-teach__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 236px;
+  list-style: none;
+}
+
+.how-teach__item {
+  position: relative;
+  font-size: 14px;
+  margin-bottom: 96px;
+  padding: 0 70px 0 65px;
+}
+
+.how-teach__item::before {
+  z-index: 10;
+  position: absolute;
+  top: -22px;
+  left: 0;
+  transform: translateY(-100%);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  content: '';
+}
+
+.how-teach__item--first::before {
+  background: url(../images/1.svg) no-repeat center;
+  background-size: 34px;
+  background-color: #feefd4;
+}
+
+.how-teach__item--second::before {
+  background: url(../images/2.svg) no-repeat center;
+  background-size: 34px;
+  background-color: #ffe0d6;
+}
+
+.how-teach__item--third::before {
+  background: url(../images/3.svg) no-repeat center;
+  background-size: 34px;
+  background-color: #e6dcf9;
+}
+
+.how-teach__item--fourth::before {
+  background: url(../images/4.svg) no-repeat center;
+  background-size: 34px;
+  background-color: #cceeec;
+}
+
+.how-teach__item--fifth::before {
+  background: url(../images/5.svg) no-repeat center;
+  background-size: 34px;
+  background-color: #e6dcf9;
+}
+
+.how-teach__item--sisth::before {
+  background: url(../images/6.svg) no-repeat center;
+  background-size: 34px;
+  background-color: #ffe0d6;
+}
+
+.how-teach__item--seventh::before {
+  background: url(../images/7.svg) no-repeat center;
+  background-size: 34px;
+  background-color: #feefd4;
+}
